@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-labelledby="title desc">
+  <title id="title">Five-stage VIZA 701 research pathway</title>
+  <desc id="desc">A rising research trajectory connects five aligned stages: Ground, Discover, Frame, Investigate, and Share, progressing from Week 1 to Week 15.</desc>
+
+  <defs>
+    <linearGradient id="trajectory" x1="70" y1="390" x2="690" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dec492"/>
+      <stop offset="0.28" stop-color="#7fd4c8"/>
+      <stop offset="0.54" stop-color="#8fb8d7"/>
+      <stop offset="0.78" stop-color="#7fd4c8"/>
+      <stop offset="1" stop-color="#f0d8a9"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="135" x2="0" y2="455" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dec492" stop-opacity="0.20"/>
+      <stop offset="0.46" stop-color="#7fd4c8" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#eadbc5"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#dec492" stop-opacity="0.20"/>
+      <stop offset="0.58" stop-color="#dec492" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#dec492" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="softShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#160000" flood-opacity="0.34"/>
+    </filter>
+    <filter id="lineGlow" x="-40%" y="-100%" width="180%" height="300%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M1 1l8 4.5L1 10z" fill="#f0d8a9"/>
+    </marker>
+  </defs>
+
+  <!-- Quiet technical field -->
+  <rect x="24" y="24" width="712" height="572" rx="44" fill="url(#microGrid)"/>
+  <ellipse cx="545" cy="168" rx="230" ry="185" fill="url(#spotlight)"/>
+  <path d="M42 401C185 303 312 323 432 243S628 89 722 111" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="1.2"/>
+  <path d="M54 438C198 354 316 367 449 283S631 151 710 146" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1" stroke-dasharray="4 12"/>
+
+  <!-- Publication sheet at the destination -->
+  <g transform="translate(586 47) rotate(5 66 72)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="132" height="144" rx="17" fill="url(#paper)"/>
+    <path d="M95 0h20l17 18v21" fill="#ddc59a" opacity="0.72"/>
+    <path d="M115 0v20h17" fill="none" stroke="#8f6a36" stroke-opacity="0.52" stroke-width="2"/>
+    <rect x="18" y="22" width="53" height="7" rx="3.5" fill="#500000" opacity="0.88"/>
+    <rect x="18" y="37" width="92" height="4" rx="2" fill="#7a7070" opacity="0.38"/>
+    <rect x="18" y="47" width="80" height="4" rx="2" fill="#7a7070" opacity="0.30"/>
+    <rect x="18" y="65" width="96" height="48" rx="9" fill="#500000" opacity="0.07"/>
+    <path d="M28 101V78M28 101h76" fill="none" stroke="#7b7473" stroke-opacity="0.32" stroke-width="2" stroke-linecap="round"/>
+    <path d="M35 95l18-13 14 7 27-19" fill="none" stroke="#2e7772" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="53" cy="82" r="4" fill="#b8873f"/>
+    <circle cx="67" cy="89" r="4" fill="#345f86"/>
+    <circle cx="94" cy="70" r="4" fill="#2e7772"/>
+    <rect x="18" y="124" width="76" height="4" rx="2" fill="#7a7070" opacity="0.28"/>
+  </g>
+
+  <!-- Research trajectory -->
+  <path d="M83 385C142 360 181 349 231 329C286 307 329 295 379 272C438 245 475 219 527 189C584 156 621 136 675 112L675 454H83Z" fill="url(#area)"/>
+  <path d="M83 385C142 360 181 349 231 329C286 307 329 295 379 272C438 245 475 219 527 189C584 156 621 136 675 112" fill="none" stroke="#dec492" stroke-opacity="0.17" stroke-width="22" stroke-linecap="round" filter="url(#lineGlow)"/>
+  <path d="M83 385C142 360 181 349 231 329C286 307 329 295 379 272C438 245 475 219 527 189C584 156 621 136 675 112" fill="none" stroke="url(#trajectory)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <path d="M83 385C142 360 181 349 231 329C286 307 329 295 379 272C438 245 475 219 527 189C584 156 621 136 675 112" fill="none" stroke="#ffffff" stroke-opacity="0.42" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- Projection guides and shared baseline -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1">
+    <path d="M83 426V454" stroke-dasharray="3 7"/>
+    <path d="M231 370V454" stroke-dasharray="3 7"/>
+    <path d="M379 313V454" stroke-dasharray="3 7"/>
+    <path d="M527 230V454" stroke-dasharray="3 7"/>
+    <path d="M675 153V454" stroke-dasharray="3 7"/>
+    <path d="M42 454H718" stroke-opacity="0.20"/>
+  </g>
+
+  <!-- Stage 01: Ground -->
+  <g transform="translate(83 385)" filter="url(#softShadow)">
+    <circle r="47" fill="#dec492" opacity="0.12"/>
+    <circle r="38" fill="url(#glass)" stroke="#e6cf9f" stroke-width="2"/>
+    <circle cx="25" cy="-25" r="13" fill="#dec492"/>
+    <text x="25" y="-24" text-anchor="middle" dominant-baseline="middle" fill="#3b0000" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="900">01</text>
+    <path d="M0-20l17 7v13c0 12-7 20-17 25C-10 20-17 12-17 0v-13z" fill="none" stroke="#fffdf8" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-8 1l6 6 11-14" fill="none" stroke="#dec492" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Stage 02: Discover -->
+  <g transform="translate(231 329)" filter="url(#softShadow)">
+    <circle r="47" fill="#7fd4c8" opacity="0.12"/>
+    <circle r="38" fill="url(#glass)" stroke="#86d8cc" stroke-width="2"/>
+    <circle cx="25" cy="-25" r="13" fill="#7fd4c8"/>
+    <text x="25" y="-24" text-anchor="middle" dominant-baseline="middle" fill="#083f3c" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="900">02</text>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#fffdf8" stroke-width="3"/>
+    <circle cx="-17" cy="-13" r="4.5" fill="#7fd4c8"/>
+    <circle cx="18" cy="-14" r="4.5" fill="#dec492"/>
+    <circle cx="19" cy="15" r="4.5" fill="#8fb8d7"/>
+    <circle cx="-18" cy="15" r="4.5" fill="#f0d8a9"/>
+    <path d="M-13-10l8 6M13-10L5-4M14 11L5 4M-13 11l8-7" fill="none" stroke="#fffdf8" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Stage 03: Frame -->
+  <g transform="translate(379 272)" filter="url(#softShadow)">
+    <circle r="47" fill="#8fb8d7" opacity="0.12"/>
+    <circle r="38" fill="url(#glass)" stroke="#9cc3df" stroke-width="2"/>
+    <circle cx="25" cy="-25" r="13" fill="#8fb8d7"/>
+    <text x="25" y="-24" text-anchor="middle" dominant-baseline="middle" fill="#17364f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="900">03</text>
+    <path d="M-18-16h36v25H2l-12 10V9h-8z" fill="none" stroke="#fffdf8" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-8-6H8M-8 2h11" fill="none" stroke="#8fb8d7" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Stage 04: Investigate -->
+  <g transform="translate(527 189)" filter="url(#softShadow)">
+    <circle r="47" fill="#7fd4c8" opacity="0.12"/>
+    <circle r="38" fill="url(#glass)" stroke="#86d8cc" stroke-width="2"/>
+    <circle cx="25" cy="-25" r="13" fill="#7fd4c8"/>
+    <text x="25" y="-24" text-anchor="middle" dominant-baseline="middle" fill="#083f3c" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="900">04</text>
+    <path d="M-20 17l12-14 10 8 18-25" fill="none" stroke="#fffdf8" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M11-14h9v9" fill="none" stroke="#dec492" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-8" cy="3" r="4" fill="#dec492"/>
+    <circle cx="2" cy="11" r="4" fill="#8fb8d7"/>
+  </g>
+
+  <!-- Stage 05: Share -->
+  <g transform="translate(675 112)" filter="url(#softShadow)">
+    <circle r="49" fill="#dec492" opacity="0.14"/>
+    <circle r="40" fill="#fffdf8" stroke="#f0d8a9" stroke-width="2.4"/>
+    <circle cx="27" cy="-27" r="13" fill="#500000" stroke="#dec492" stroke-width="1.5"/>
+    <text x="27" y="-26" text-anchor="middle" dominant-baseline="middle" fill="#fffdf8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="900">05</text>
+    <path d="M-15-21H9l10 10v31h-34z" fill="none" stroke="#500000" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M9-21v11h10M-7-2H10M-7 6H10M-7 14H4" fill="none" stroke="#2e7772" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Aligned phase labels -->
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" text-anchor="middle">
+    <g transform="translate(83 0)">
+      <text y="485" fill="#dec492" font-size="11" font-weight="850" letter-spacing="1.9">FOUNDATION</text>
+      <text y="511" fill="#ffffff" font-size="17" font-weight="850" letter-spacing="1.1">GROUND</text>
+      <text y="535" fill="#ffffff" fill-opacity="0.58" font-size="12.5" font-weight="650">Week 1</text>
+      <rect x="-27" y="555" width="54" height="3" rx="1.5" fill="#dec492"/>
+    </g>
+    <g transform="translate(231 0)">
+      <text y="485" fill="#7fd4c8" font-size="11" font-weight="850" letter-spacing="1.9">PERSPECTIVES</text>
+      <text y="511" fill="#ffffff" font-size="17" font-weight="850" letter-spacing="1.1">DISCOVER</text>
+      <text y="535" fill="#ffffff" fill-opacity="0.58" font-size="12.5" font-weight="650">Weeks 2–5</text>
+      <rect x="-27" y="555" width="54" height="3" rx="1.5" fill="#7fd4c8"/>
+    </g>
+    <g transform="translate(379 0)">
+      <text y="485" fill="#8fb8d7" font-size="11" font-weight="850" letter-spacing="1.9">FORMULATION</text>
+      <text y="511" fill="#ffffff" font-size="17" font-weight="850" letter-spacing="1.1">FRAME</text>
+      <text y="535" fill="#ffffff" fill-opacity="0.58" font-size="12.5" font-weight="650">Weeks 6–8</text>
+      <rect x="-27" y="555" width="54" height="3" rx="1.5" fill="#8fb8d7"/>
+    </g>
+    <g transform="translate(527 0)">
+      <text y="485" fill="#7fd4c8" font-size="11" font-weight="850" letter-spacing="1.9">EVIDENCE</text>
+      <text y="511" fill="#ffffff" font-size="15.5" font-weight="850" letter-spacing="0.65">INVESTIGATE</text>
+      <text y="535" fill="#ffffff" fill-opacity="0.58" font-size="12.5" font-weight="650">Weeks 9–14</text>
+      <rect x="-27" y="555" width="54" height="3" rx="1.5" fill="#7fd4c8"/>
+    </g>
+    <g transform="translate(675 0)">
+      <text y="485" fill="#dec492" font-size="11" font-weight="850" letter-spacing="1.9">CONTRIBUTION</text>
+      <text y="511" fill="#ffffff" font-size="17" font-weight="850" letter-spacing="1.1">SHARE</text>
+      <text y="535" fill="#ffffff" fill-opacity="0.58" font-size="12.5" font-weight="650">Week 15</text>
+      <rect x="-27" y="555" width="54" height="3" rx="1.5" fill="#dec492"/>
+    </g>
+  </g>
+
+  <!-- Small research signals -->
+  <g fill="#ffffff" opacity="0.42">
+    <circle cx="53" cy="175" r="2.2"/>
+    <circle cx="149" cy="119" r="2.6"/>
+    <circle cx="298" cy="93" r="2"/>
+    <circle cx="452" cy="72" r="2.4"/>
+    <circle cx="709" cy="271" r="2.2"/>
+    <circle cx="641" cy="348" r="2.6"/>
+    <circle cx="319" cy="403" r="2.1"/>
+    <circle cx="159" cy="438" r="2.3"/>
+  </g>
+</svg>
