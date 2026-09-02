@@ -1,0 +1,168 @@
+@page {
+  size: letter;
+  margin: 0.55in;
+}
+
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+html,
+body {
+  background: #fff !important;
+  color: #111 !important;
+  font-size: 10pt;
+}
+
+.site-header,
+.ambient,
+.hero-visual,
+.hero-actions,
+.hero-metrics,
+.course-premise,
+.journey-section,
+.speakers-section,
+.project-section,
+.assessment-section,
+.outcomes-section,
+.policies-section,
+.details-section,
+.site-footer,
+.back-to-top,
+.roadmap-toolbar,
+.noscript-note {
+  display: none !important;
+}
+
+.hero {
+  padding: 0 0 0.25in !important;
+  background: #fff !important;
+  color: #111 !important;
+}
+
+.hero-grid {
+  display: block !important;
+}
+
+.eyebrow-row,
+.status-dot {
+  display: none !important;
+}
+
+.hero h1 {
+  max-width: none !important;
+  margin: 0 0 0.08in !important;
+  color: #500000 !important;
+  font-size: 24pt !important;
+  line-height: 1.05 !important;
+}
+
+.hero-lede {
+  max-width: none !important;
+  margin: 0 0 0.15in !important;
+  color: #333 !important;
+  font-size: 10pt !important;
+}
+
+.hero-facts {
+  display: flex !important;
+  gap: 0.25in !important;
+}
+
+.hero-facts dt,
+.hero-facts dd {
+  color: #222 !important;
+}
+
+.roadmap-section {
+  padding: 0 !important;
+  background: #fff !important;
+}
+
+.roadmap-section .section-heading {
+  margin-bottom: 0.15in !important;
+}
+
+.roadmap-section .section-heading h2 {
+  color: #500000 !important;
+  font-size: 18pt !important;
+}
+
+.roadmap-section .section-heading p,
+.roadmap-section .section-kicker {
+  display: none !important;
+}
+
+.week-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 0.1in !important;
+}
+
+.week-card,
+.week-card.is-filtered-out {
+  min-height: 0 !important;
+  display: block !important;
+  break-inside: avoid;
+  padding: 0.12in !important;
+  border: 1px solid #bbb !important;
+  border-radius: 0.08in !important;
+  background: #fff !important;
+}
+
+.week-card::before,
+.week-card::after {
+  display: none !important;
+}
+
+.week-card-header {
+  margin-bottom: 0.06in !important;
+}
+
+.week-number,
+.week-phase,
+.week-label {
+  color: #500000 !important;
+  font-size: 7pt !important;
+}
+
+.week-phase {
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+.week-card h3 {
+  margin-bottom: 0.04in !important;
+  color: #111 !important;
+  font-size: 12pt !important;
+}
+
+.week-card p {
+  margin-bottom: 0.05in !important;
+  color: #333 !important;
+  font-size: 8pt !important;
+  line-height: 1.35 !important;
+}
+
+.week-card-footer {
+  margin-top: 0.05in !important;
+}
+
+.due-box {
+  padding: 0.06in !important;
+  border-left: 2px solid #500000 !important;
+  background: #f6eeee !important;
+}
+
+.due-box span,
+.due-box strong,
+.week-speaker-link,
+.empty-milestone {
+  color: #222 !important;
+  font-size: 7pt !important;
+}
+
+a[href]::after {
+  content: none !important;
+}

@@ -1,0 +1,74 @@
+:root {
+  --maroon-1000: #240000;
+  --maroon-950: #310000;
+  --maroon-900: #3f0000;
+  --maroon-800: #500000;
+  --maroon-700: #6c1a25;
+  --maroon-600: #883343;
+  --maroon-100: #f3e6e7;
+  --maroon-50: #fbf4f4;
+
+  --cream-50: #fffdf9;
+  --cream-100: #faf5ec;
+  --cream-200: #f1e8d9;
+  --cream-300: #e6d8c3;
+
+  --gold-700: #8a632d;
+  --gold-600: #a77b3e;
+  --gold-500: #c59a58;
+  --gold-300: #dec492;
+  --gold-100: #f7edd8;
+
+  --teal-800: #184846;
+  --teal-700: #235f5c;
+  --teal-600: #2e7772;
+  --teal-100: #dbefed;
+
+  --blue-800: #284866;
+  --blue-700: #345f86;
+  --blue-100: #e0edf7;
+
+  --violet-800: #4e3f68;
+  --violet-100: #ece7f4;
+
+  --ink-1000: #171313;
+  --ink-900: #211c1d;
+  --ink-800: #342e2f;
+  --ink-700: #4b4445;
+  --ink-600: #655d5e;
+  --ink-500: #7f7778;
+  --ink-300: #b7b0b0;
+  --ink-200: #d7d2d1;
+  --ink-100: #ebe8e7;
+  --white: #ffffff;
+
+  --surface: rgba(255, 253, 249, 0.92);
+  --surface-solid: #fffdf9;
+  --surface-muted: #faf7f2;
+  --line: rgba(80, 0, 0, 0.13);
+  --line-strong: rgba(80, 0, 0, 0.24);
+
+  --shadow-sm: 0 8px 24px rgba(36, 0, 0, 0.07);
+  --shadow-md: 0 22px 60px rgba(36, 0, 0, 0.10);
+  --shadow-lg: 0 38px 90px rgba(36, 0, 0, 0.16);
+  --shadow-maroon: 0 24px 60px rgba(80, 0, 0, 0.24);
+
+  --radius-xs: 0.55rem;
+  --radius-sm: 0.85rem;
+  --radius-md: 1.2rem;
+  --radius-lg: 1.8rem;
+  --radius-xl: 2.5rem;
+  --radius-pill: 999px;
+
+  --font-sans: "Avenir Next", Avenir, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  --font-serif: Iowan Old Style, Baskerville, "Times New Roman", serif;
+
+  --container: 1180px;
+  --container-narrow: 880px;
+  --header-height: 78px;
+  --section-space: clamp(5rem, 9vw, 9rem);
+  --section-space-small: clamp(3.5rem, 6vw, 6rem);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+}
