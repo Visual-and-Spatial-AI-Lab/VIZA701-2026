@@ -179,8 +179,7 @@ window.COURSE_DATA = {
           time: "2:50 PM–3:35 PM",
           name: "Rhea Sukthanker",
           affiliation: "Microsoft Research Seattle",
-          title: "TBA",
-          status: "To be announced"
+          title: "Designing Efficient Deep Learning Models"
         }
       ]
     },
