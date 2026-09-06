@@ -166,13 +166,13 @@ window.COURSE_DATA = {
         {
           time: "1:10 PM–1:55 PM",
           name: "Hwaryoung Seo",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "Embodied Interaction in Immersive Design: Research Across Art, Education, and Healthcare"
         },
         {
           time: "2:00 PM–2:45 PM",
           name: "Ergun Akleman",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "Recent Works on Shape Modeling: Polycatenanes, LInked-Knot Structures, and Holder-Minkowski Tracendental Operations"
         },
         {
@@ -190,13 +190,13 @@ window.COURSE_DATA = {
         {
           time: "1:10 PM–1:55 PM",
           name: "Jian Tao",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "Deep Models for Ground Reaction Force Prediction: Subject-Held-Out Evaluation Across Locomotion and Occupational Tasks"
         },
         {
           time: "2:00 PM–2:45 PM",
           name: "Edgar Rojas Muñoz",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "Empowering People with Mixed Reality Assistive Technologies"
         },
         {
@@ -215,19 +215,19 @@ window.COURSE_DATA = {
         {
           time: "1:10 PM–1:55 PM",
           name: "Wai Tong",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "Rethinking Workflows Through Immersive Technologies"
         },
         {
           time: "2:00 PM–2:45 PM",
           name: "Xin (Shane) Li",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "Building Physically Reliable Digital Human Models"
         },
         {
           time: "2:50 PM–3:35 PM",
           name: "Jimin Rhim",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "Responsibe Innovation of Autonomous Intelligent Systems"
         }
       ]
@@ -239,19 +239,19 @@ window.COURSE_DATA = {
         {
           time: "1:10 PM–1:55 PM",
           name: "Sab Babu",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "Research in Perception-Action, Virtual Humans, Avatars and Cybersickness in XR Simulations"
         },
         {
           time: "2:00 PM–2:45 PM",
           name: "Jong-in Lee",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "Interaction Design for Spatial Computing"
         },
         {
           time: "2:50 PM–3:35 PM",
           name: "Bryan Kim",
-          affiliation: "",
+          affiliation: "TAMU",
           title: "It's Just a Game, Bro"
         }
       ]
