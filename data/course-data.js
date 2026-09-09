@@ -201,10 +201,9 @@ window.COURSE_DATA = {
         },
         {
           time: "2:50 PM–3:35 PM",
-          name: "Speaker to be announced",
-          affiliation: "",
-          title: "Presentation title to be announced",
-          status: "To be announced"
+          name: "Yeeun Park",
+          affiliation: "Product Research Engineer at ESRI California",
+          title: "Presentation title to be announced"
         }
       ]
     },
